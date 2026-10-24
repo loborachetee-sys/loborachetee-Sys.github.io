@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Portfolio de Believe Lobo, étudiant en cycle préparatoire en génie civil. Découvrez son parcours, ses compétences et ses projets académiques.">
+
+  <title>Believe Lobo | Portfolio Génie Civil</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-mark">BL<span>.</span></div>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Accueil">
+        <span class="brand-icon">BL</span>
+        <span class="brand-text">BELIEVE LOBO<small>GÉNIE CIVIL · PORTFOLIO</small></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Ouvrir le menu"
+        aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link active" href="#accueil">Accueil</a></li>
+        <li><a class="nav-link" href="#apropos">À propos</a></li>
+        <li><a class="nav-link" href="#competences">Compétences</a></li>
+        <li><a class="nav-link" href="#projets">Projets</a></li>
+        <li><a class="nav-link nav-cta" href="#contact">Me contacter <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section container" id="accueil">
+      <div class="hero-content reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          ÉTUDIANT INGÉNIEUR · EN FORMATION
+        </div>
+
+        <h1>
+          Construire<br>
+          <span class="outline-text">aujourd'hui.</span><br>
+          Imaginer <span class="accent-text">demain.</span>
+        </h1>
+
+        <p class="hero-description">
+          Je suis Believe Lobo, étudiant en première année de cycle
+          préparatoire en génie civil. Je développe mes connaissances
+          techniques avec une ambition : contribuer aux infrastructures
+          de demain.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">
+            Explorer mon portfolio <span>↘</span>
+          </a>
+          <a href="https://www.linkedin.com/in/believe-lobo-393902442/"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-secondary">
+            LinkedIn <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div><span class="meta-number">01</span><span>Cycle préparatoire</span></div>
+          <div><span class="meta-number">GC</span><span>Génie civil</span></div>
+          <div><span class="meta-number">∞</span><span>Envie d'apprendre</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-grid"></div>
+        <div class="visual-label label-top">FIG. 001 / STRUCTURES</div>
+
+        <div class="architecture-frame">
+          <img
+            src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1100&q=85"
+            alt="Architecture contemporaine et lignes géométriques"
+            fetchpriority="high">
+          <div class="image-overlay"></div>
+        </div>
+
+        <div class="floating-card floating-card-top">
+          <span class="card-symbol">⌘</span>
+          <div><strong>Concevoir</strong><small>Penser les structures</small></div>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+          <span class="card-symbol cyan-symbol">↗</span>
+          <div><strong>Progresser</strong><small>Apprendre chaque jour</small></div>
+        </div>
+
+        <div class="visual-coordinates">33°34' N<br>07°35' W</div>
+        <div class="visual-label label-bottom">PRÉCISION · RIGUEUR · DURABILITÉ</div>
+      </div>
+
+      <a class="scroll-indicator" href="#apropos">
+        <span></span> DÉFILER POUR EXPLORER
+      </a>
+    </section>
+
+    <!-- BANDEAU -->
+    <div class="ticker" aria-label="Domaines d'intérêt">
+      <div class="ticker-track" aria-hidden="true">
+        <span>GÉNIE CIVIL</span><i>✳</i><span>STRUCTURES</span><i>✳</i>
+        <span>ARCHITECTURE</span><i>✳</i><span>INFRASTRUCTURES</span><i>✳</i>
+        <span>INNOVATION</span><i>✳</i><span>GÉNIE CIVIL</span><i>✳</i>
+        <span>STRUCTURES</span><i>✳</i><span>ARCHITECTURE</span><i>✳</i>
+        <span>INFRASTRUCTURES</span><i>✳</i><span>INNOVATION</span><i>✳</i>
+      </div>
+    </div>
+
+    <!-- A PROPOS -->
+    <section class="section container about-section" id="apropos">
+      <div class="section-heading reveal">
+        <span class="section-index">01 / À PROPOS</span>
+        <h2>Un parcours qui se<br>construit <span class="accent-text">pas à pas.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">
+            Le génie civil, c'est l'art de transformer des idées en structures
+            concrètes, utiles et durables.
+          </p>
+          <p>
+            Actuellement en première année de cycle préparatoire, je construis
+            progressivement les bases scientifiques et techniques nécessaires
+            à mon évolution dans le domaine du génie civil.
+          </p>
+          <p>
+            Je m'intéresse à la conception des bâtiments, à la résistance des
+            matériaux, aux infrastructures et aux outils numériques qui
+            accompagnent l'ingénieur moderne.
+          </p>
+          <p>
+            Mon objectif : apprendre avec rigueur, développer mon esprit
+            d'analyse et transformer chaque exercice en une occasion de
+            progresser.
+          </p>
+          <a class="text-link" href="#contact">Échangeons ensemble <span>↗</span></a>
+        </div>
+
+        <div class="about-panel reveal">
+          <div class="panel-top"><span>PROFIL / 001</span><span>2026—</span></div>
+          <div class="monogram">B<span>L</span></div>
+          <h3>Believe Lobo</h3>
+          <p class="muted">Étudiant en cycle préparatoire</p>
+          <div class="panel-divider"></div>
+          <div class="info-row"><span>DOMAINE</span><strong>Génie civil</strong></div>
+          <div class="info-row"><span>NIVEAU</span><strong>1ʳᵉ année prépa</strong></div>
+          <div class="info-row"><span>APPROCHE</span><strong>Curiosité & rigueur</strong></div>
+          <div class="info-row"><span>OBJECTIF</span><strong>Évoluer et apprendre</strong></div>
+          <div class="panel-stamp">EN CONSTRUCTION<br>COMME MES COMPÉTENCES</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section class="section skills-section" id="competences">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">02 / COMPÉTENCES</span>
+          <h2>Les bases d'un<br><span class="accent-text">futur ingénieur.</span></h2>
+          <p class="section-intro">
+            Des fondations scientifiques aux outils numériques, chaque
+            compétence se développe avec la pratique.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">∑</div>
+            <h3>Sciences fondamentales</h3>
+            <p>Développer une base solide en mathématiques, physique et méthodes de résolution.</p>
+            <div class="skill-tags"><span>Mathématiques</span><span>Physique</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">⌗</div>
+            <h3>Conception & dessin</h3>
+            <p>Découvrir les plans techniques, la représentation géométrique et la lecture de dessins.</p>
+            <div class="skill-tags"><span>Dessin technique</span><span>Géométrie</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">▦</div>
+            <h3>Outils numériques</h3>
+            <p>Explorer les outils de bureautique, de programmation et de conception assistée par ordinateur.</p>
+            <div class="skill-tags"><span>À compléter</span><span>Outils CAO</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-number">04</span>
+            <div class="skill-icon">↗</div>
+            <h3>Compétences humaines</h3>
+            <p>Renforcer l'organisation, la communication, l'autonomie et le travail en équipe.</p>
+            <div class="skill-tags"><span>Organisation</span><span>Esprit d'équipe</span></div>
+          </article>
+        </div>
+        <p class="skills-note">Les domaines présentés indiquent mes axes d'apprentissage, pas nécessairement une maîtrise professionnelle. Je les actualiserai au fil de ma formation.</p>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section container projects-section" id="projets">
+      <div class="section-heading reveal">
+        <span class="section-index">03 / PROJETS</span>
+        <h2>Apprendre en<br><span class="accent-text">passant à l'action.</span></h2>
+        <p class="section-intro">
+          Un espace pour présenter mes exercices, travaux académiques
+          et réalisations au fur et à mesure de mon parcours.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=85"
+                 alt="Chantier de construction et structure en béton" loading="lazy">
+            <span class="project-category">ÉTUDE CONCEPTUELLE</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>PROJET 001</span><span>À DÉVELOPPER</span></div>
+            <h3>Étude d'un bâtiment</h3>
+            <p>Projet à documenter : lecture de plans, identification des éléments structurels et compréhension des étapes de conception.</p>
+            <div class="project-tags"><span>Structure</span><span>Dessin technique</span><span>Analyse</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=85"
+                 alt="Bâtiment moderne aux lignes architecturales" loading="lazy">
+            <span class="project-category">DESSIN & GÉOMÉTRIE</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>PROJET 002</span><span>À DÉVELOPPER</span></div>
+            <h3>Représentation technique</h3>
+            <p>Espace réservé à un exercice de géométrie descriptive, de dessin technique ou de représentation de volumes.</p>
+            <div class="project-tags"><span>Géométrie</span><span>Plans</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1590644365607-1c5a38e9b2c5?auto=format&fit=crop&w=1000&q=85"
+                 alt="Pont et infrastructure moderne" loading="lazy">
+            <span class="project-category">RECHERCHE & ANALYSE</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>PROJET 003</span><span>À DÉVELOPPER</span></div>
+            <h3>Analyse d'une infrastructure</h3>
+            <p>Espace pour présenter une recherche sur les ponts, les matériaux, la durabilité ou le fonctionnement des structures.</p>
+            <div class="project-tags"><span>Infrastructure</span><span>Recherche</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note">Ces cartes sont des modèles de présentation, pas des projets déjà réalisés. Remplace leurs descriptions et leurs images par tes propres travaux lorsque tu les auras documentés.</p>
+    </section>
+
+    <!-- METHODE -->
+    <section class="method-section">
+      <div class="container method-inner reveal">
+        <span class="section-index">04 / MA PHILOSOPHIE</span>
+        <h2>Chaque grande structure<br>commence par <span class="accent-text">de bonnes bases.</span></h2>
+        <div class="method-steps">
+          <div><span>01</span><h3>Comprendre</h3><p>Poser les bonnes questions et maîtriser les fondamentaux.</p></div>
+          <div><span>02</span><h3>Pratiquer</h3><p>Appliquer les connaissances à des exercices et projets concrets.</p></div>
+          <div><span>03</span><h3>Progresser</h3><p>Analyser les résultats, apprendre de ses erreurs et recommencer.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container contact-section" id="contact">
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <span class="section-index">05 / CONTACT</span>
+          <h2>Une idée,<br>un projet ?<br><span class="accent-text">Parlons-en.</span></h2>
+          <p>Je suis ouvert aux échanges avec les étudiants, les ingénieurs et les professionnels du génie civil pour apprendre, partager et progresser.</p>
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/believe-lobo-393902442/"
+             target="_blank" rel="noopener noreferrer">
+            Me retrouver sur LinkedIn <span>↗</span>
+          </a>
+        </div>
+
+        <div class="contact-panel reveal">
+          <div class="panel-top"><span>INITIER UNE CONVERSATION</span><span>BL / 001</span></div>
+          <div class="contact-line">
+            <span class="contact-icon">↗</span>
+            <div><small>RÉSEAU PROFESSIONNEL</small><a href="https://www.linkedin.com/in/believe-lobo-393902442/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div>
+          </div>
+          <div class="contact-line">
+            <span class="contact-icon">@</span>
+            <div><small>COURRIEL</small><p>Ajoute ton adresse e-mail ici</p></div>
+          </div>
+          <div class="contact-line">
+            <span class="contact-icon">⌖</span>
+            <div><small>LOCALISATION</small><p>Maroc</p></div>
+          </div>
+          <p class="contact-hint">Pour me contacter, envoie-moi un message via LinkedIn. Une adresse e-mail pourra être ajoutée ultérieurement.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top">
+        <span class="brand-icon">BL</span>
+        <span class="brand-text">BELIEVE LOBO<small>CONSTRUIRE SON AVENIR</small></span>
+      </a>
+      <p>© <span id="year"></span> Believe Lobo. Réalisé avec curiosité et ambition.</p>
+      <a href="#top" class="back-top">RETOUR EN HAUT ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
